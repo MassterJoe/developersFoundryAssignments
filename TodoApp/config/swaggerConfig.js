@@ -2,9 +2,9 @@ const swaggerOptions = {
     swaggerDefinition: {
       openapi: '3.0.0',
       info: {
-        title: 'TaskMaster API',
+        title: 'TodoApp API',
         version: '1.0.0',
-        description: 'API documentation for the TaskMaster project',
+        description: 'API documentation for the TodoApp project',
       },
       servers: [
         {
@@ -12,7 +12,7 @@ const swaggerOptions = {
           description: 'Development server',
         },
         {
-          url: 'https://threemtt-capstone-project-c0vy.onrender.com/api',
+          url: 'https://dfassignment.onrender.com/api',
           description: 'Production server'
         }
       ],
