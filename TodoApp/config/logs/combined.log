@@ -42,3 +42,25 @@
 [2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
 [2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
 [2025-01-21 16:18:51] INFO: Database connected: localhost
+[2025-01-21 17:02:59] INFO: Database connected: localhost
+[2025-01-21 17:03:58] INFO: POST /api/users/login - ::ffff:127.0.0.1
+[2025-01-21 17:05:42] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 17:05:42] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 17:05:42] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 17:05:42] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 17:05:43] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 17:05:44] INFO: GET /api-docs/favicon-16x16.png - ::ffff:127.0.0.1
+[2025-01-21 17:06:18] INFO: GET /api/tasks/filter?priority=high&status=in%20progress&deadline=2025-01-31T23%3A59%3A59Z - ::ffff:127.0.0.1
+[2025-01-21 17:06:25] INFO: GET /api/tasks/filter?priority=high&status=in%20progress&deadline=2025-01-31T23%3A59%3A59Z - ::ffff:127.0.0.1
+[2025-01-21 17:21:37] INFO: Database connected: localhost
+[2025-01-21 17:22:20] INFO: Database connected: localhost
+[2025-01-21 17:22:55] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 17:22:57] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 17:22:57] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 17:22:57] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 17:22:57] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 17:22:57] INFO: GET /api-docs/favicon-16x16.png - ::ffff:127.0.0.1
+[2025-01-21 17:23:05] INFO: GET /api/tasks/filter?priority=high&status=in%20progress&fromDate=2025-01-01T00%3A00%3A00Z&toDate=2025-01-31T23%3A59%3A59Z - ::ffff:127.0.0.1
+[2025-01-21 17:23:14] INFO: GET /api/tasks/filter?priority=high&status=in%20progress&fromDate=2025-01-01T00%3A00%3A00Z&toDate=2025-01-31T23%3A59%3A59Z - ::ffff:127.0.0.1
+[2025-01-21 17:27:47] INFO: Database connected: localhost
+[2025-01-21 17:28:20] INFO: Database connected: localhost
