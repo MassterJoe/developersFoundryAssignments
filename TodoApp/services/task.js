@@ -1,6 +1,7 @@
 const Task = require('../models/Task');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose'); 
+const logger = require('../config/logger');
 
 exports.createTask = async (req, res) => {
   try {
@@ -33,6 +34,7 @@ exports.createTask = async (req, res) => {
 
     await newTask.save();
 
+    logger.info(`Task created successfully for user ${userId}: ${title}`);
     // Respond with the created task
     res.status(201).json({
       status: 'success',
@@ -40,7 +42,7 @@ exports.createTask = async (req, res) => {
       task: newTask,
     });
   } catch (error) {
-    console.error('Error creating task:', error.message);
+    logger.error(`Error creating task: ${error.message}`, { stack: error.stack });
     res.status(500).json({
       status: 'error',
       message: 'Internal server error.',
@@ -78,6 +80,7 @@ exports.getTasks = async (req, res) => {
       });
     }
 
+
     // Respond with the tasks
     res.status(200).json({
       status: 'success',
@@ -85,13 +88,15 @@ exports.getTasks = async (req, res) => {
       tasks,
     });
   } catch (error) {
-    console.error('Error fetching tasks:', error.message);
+    logger.error(`Error fetching task: ${error.message}`, { stack: error.stack }); 
     res.status(500).json({
       status: 'error',
       message: 'Internal server error.',
     });
   }
 };
+
+
 
 // Controller to get a specific task by its ID
 exports.getTaskById = async (req, res) => {
@@ -138,7 +143,7 @@ exports.getTaskById = async (req, res) => {
       task,
     });
   } catch (error) {
-    console.error('Error fetching task by ID:', error.message);
+  logger.error(`Error fetching task by ID:,${ error.message }`, { stack: error.stack });
     res.status(500).json({
       status: 'error',
       message: 'Internal server error.',
@@ -211,7 +216,7 @@ exports.updateTask = async (req, res) => {
       task,
     });
   } catch (error) {
-    console.error('Error updating task:', error.message);
+    logger.error(`Error updating task:, ${error.message}`, {stack: error.stack });
     res.status(500).json({
       status: 'error',
       message: 'Internal server error.',
@@ -269,7 +274,7 @@ exports.deleteTask = async (req, res) => {
       message: "Task deleted successfully.",
     });
   } catch (error) {
-    console.error("Error deleting task:", error.message);
+    logger.error(`Error deleting task:, ${ error.message }`, {stack: error.stack });
     res.status(500).json({
       status: "error",
       message: "Internal server error.",
@@ -325,7 +330,7 @@ exports.searchTasks = async (req, res) => {
     });
 
   } catch (error) {
-    console.error('Error searching tasks:', error.message);
+    logger.error(`Error searching tasks:, ${error.message}`, {stack: error.stack });
     return res.status(500).json({
       status: 'error',
       message: 'Internal server error.',

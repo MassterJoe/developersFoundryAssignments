@@ -1,5 +1,5 @@
 const express = require('express');
-const { registerUser, loginUser, getUser } = require('../controllers/user');
+const { registerUser, loginUser, getUser } = require('../services/user');
 
 
 const router = express.Router();
@@ -11,7 +11,8 @@ const router = express.Router();
  *   - name: Users
  *     description: User management
  * 
- *  */
+ *
+ */
 
 
 /**
@@ -48,12 +49,6 @@ const router = express.Router();
  *           format: email
  *           description: The email address of the user
  *           example: "john.doe@example.com"
- *         tasks:
- *           type: array
- *           items:
- *             type: string
- *             description: Task ID associated with the user
- *           description: List of task IDs assigned to the user
  *         createdAt:
  *           type: string
  *           format: date-time
@@ -158,9 +153,6 @@ const router = express.Router();
  *              name: Salawu O. Joseph
  *              username: salawu
  *              email: masterjoe@example.com
- *              tasks:
- *                  - "64ad1c12345678abcd901234"
- *                  - "64ad1c22345678abcd901235"
  *   
  *     responses:
  *       '200':

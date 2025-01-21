@@ -7,7 +7,7 @@ const {
   deleteTask,
   getTaskById,
   searchTasks
-} = require('../controllers/task');
+} = require('../services/task');
 
 const router = express.Router();
 

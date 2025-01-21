@@ -1,5 +1,6 @@
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
+const logger = require('../config/logger');
 // Register a new user
 exports.registerUser = async (req, res) => {
   try {
@@ -9,6 +10,7 @@ exports.registerUser = async (req, res) => {
 
     res.status(201).json({ message: 'User registered successfully!' });
   } catch (error) {
+    logger.error(`Error registering successfully: ${error.message}`, { stack: error.stack });
     res.status(400).json({ error: error.message });
   }
 };
@@ -37,6 +39,7 @@ exports.loginUser = async (req, res) => {
     });
     
   } catch (error) {
+    logger.error(`Error login in: ${error.message}`, { stack: error.stack });
     res.status(500).json({ error: 'Server error' });
   }
 };
@@ -75,7 +78,7 @@ exports.getUser = async (req, res) => {
       data: user,
     });
   } catch (error) {
- 
+    logger.error(`Error fetching user record: ${error.message}`, { stack: error.stack });
     return res.status(500).json({
       status: "error",
       message: "Internal server error.",
