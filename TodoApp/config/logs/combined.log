@@ -1,2 +1,44 @@
 [2025-01-19 20:05:58] INFO: Database connected: localhost
 [2025-01-20 10:28:22] INFO: Database connected: localhost
+[2025-01-21 15:35:45] INFO: Database connected: localhost
+[2025-01-21 16:00:24] INFO: Database connected: localhost
+[2025-01-21 16:03:00] INFO: Database connected: localhost
+[2025-01-21 16:03:18] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 16:03:39] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 16:03:39] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 16:03:39] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 16:03:40] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 16:03:44] INFO: GET /api-docs/favicon-16x16.png - ::ffff:127.0.0.1
+[2025-01-21 16:04:42] INFO: Database connected: localhost
+[2025-01-21 16:04:48] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 16:04:48] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 16:04:48] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 16:04:48] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 16:04:48] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 16:05:29] INFO: POST /api/users/register - ::ffff:127.0.0.1
+[2025-01-21 16:06:15] INFO: POST /api/users/register - ::ffff:127.0.0.1
+[2025-01-21 16:06:41] INFO: POST /api/users/register - ::ffff:127.0.0.1
+[2025-01-21 16:07:35] INFO: POST /api/users/login - ::ffff:127.0.0.1
+[2025-01-21 16:08:59] INFO: POST /api/users/register - ::ffff:127.0.0.1
+[2025-01-21 16:09:34] INFO: POST /api/users/login - ::ffff:127.0.0.1
+[2025-01-21 16:13:33] INFO: Database connected: localhost
+[2025-01-21 16:14:30] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 16:14:32] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 16:14:32] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 16:14:32] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 16:14:32] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 16:14:33] INFO: GET /api-docs/favicon-16x16.png - ::ffff:127.0.0.1
+[2025-01-21 16:15:28] INFO: POST /api/users/login - ::ffff:127.0.0.1
+[2025-01-21 16:16:48] INFO: Database connected: localhost
+[2025-01-21 16:16:59] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 16:16:59] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 16:16:59] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 16:16:59] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 16:16:59] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 16:17:41] INFO: Database connected: localhost
+[2025-01-21 16:18:29] INFO: GET /api-docs/ - ::ffff:127.0.0.1
+[2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui-bundle.js - ::ffff:127.0.0.1
+[2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui-standalone-preset.js - ::ffff:127.0.0.1
+[2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui-init.js - ::ffff:127.0.0.1
+[2025-01-21 16:18:30] INFO: GET /api-docs/swagger-ui.css - ::ffff:127.0.0.1
+[2025-01-21 16:18:51] INFO: Database connected: localhost

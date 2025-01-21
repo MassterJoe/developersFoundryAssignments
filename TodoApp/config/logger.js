@@ -15,7 +15,7 @@ const logger = createLogger({
   level: 'info', // Default logging level
   format: logFormat,
   transports: [
-    new transports.Console(), // Log to the console
+    //new transports.Console(),
     new transports.File({ filename: path.join(__dirname, 'logs', 'error.log'), level: 'error' }), // Log errors to file
     new transports.File({ filename: path.join(__dirname, 'logs', 'combined.log') }) // Log all messages to file
   ]
