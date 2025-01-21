@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const logger = require('../config/logger');
 
 const connectDb = async () => {
 
@@ -6,9 +7,9 @@ const connectDb = async () => {
 
         mongoose.set('strictQuery', false);
         const conn = await mongoose.connect(process.env.MONGODB_URI);
-        console.log(`Database connected: ${conn.connection.host}`)
+        logger.info(`Database connected: ${conn.connection.host}`)
     } catch(error){
-        console.log(error);
+    logger.error(`Error connecting database: ${error.message}`, { stack: error.stack });
     }
 } 
 

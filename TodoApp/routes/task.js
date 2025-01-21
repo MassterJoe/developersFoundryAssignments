@@ -7,7 +7,7 @@ const {
   deleteTask,
   getTaskById,
   searchTasks
-} = require('../controllers/task');
+} = require('../services/task');
 
 const router = express.Router();
 
@@ -476,4 +476,7 @@ router.get('/:taskId', getTaskById);
  */
 
 router.get('/x/search', searchTasks);
+
+
+
 module.exports = router;
